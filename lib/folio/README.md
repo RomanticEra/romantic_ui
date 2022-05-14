@@ -20,6 +20,18 @@ model
     + use flutter_data to make it to be model
     > import package
     > build with `flutter pub run build_runner build --delete-conflicting-outputs`
+view
+    + layout->simple_form_page->device_screens
+    > asset landing_page, widget -> {gradient_container.dart, animated_scale.dart as folio;}
+    _LandingPageImage
+    ```dart
+    folio.AnimatedScale(
+            begin: 1,
+            end: scale//1.05
+    ...
+    MouseRegion(onEnter(ValueNotifier false=> true ))
+    ```
+[SimpleFormPage](https://www.bilibili.com/video/BV1ZT4y1B7zX?spm_id_from=333.999.list.card_archive.click)
 
 * aspect of auth
 1. DeviceScreens as Background

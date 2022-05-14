@@ -13,8 +13,11 @@ dependencies:
   # util/path_utils.dart
   path_provider: ^2.0.1
   xdg_directories: ^0.2.0
+  # adaptive
+  sized_context: ^1.0.0
   # flutter_data
   flutter_data: ^1.0.0
+  hooks_riverpod: ^1.0.0
   json_annotation: ^4.3.0
 
 dev_dependencies:
