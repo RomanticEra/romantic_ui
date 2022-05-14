@@ -5,7 +5,7 @@
 
 * 2205141517 module
 1. dir list as:
-mkdir routes utils providers views components 
+mkdir -p routes utils providers views/{layout,widget} components models
 utils
     + native_window_utils
       - Deadcode found on IoUtilsNative->{WindowsTitleBar,MacosTitleBar}

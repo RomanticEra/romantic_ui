@@ -5,7 +5,7 @@ version: 0.0.1
 
 environment:
   sdk: ">=2.16.2 <3.0.0"
-  flutter: ">=1.17.0"
+  flutter: ">=2.10.0"
 
 dependencies:
   flutter:
@@ -19,6 +19,10 @@ dependencies:
   flutter_data: ^1.0.0
   hooks_riverpod: ^1.0.0
   json_annotation: ^4.3.0
+  # gallery
+  google_fonts: ^2.3.2 
+  # adaptive_breakpoints: ^0.1.0
+  adaptive_components: ^0.0.3
 
 dev_dependencies:
   flutter_test:
